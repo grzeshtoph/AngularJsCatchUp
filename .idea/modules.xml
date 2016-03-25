@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AngularJsCatchUp.iml" filepath="$PROJECT_DIR$/.idea/modules/AngularJsCatchUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AngularJsCatchUp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AngularJsCatchUp_main.iml" group="AngularJsCatchUp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AngularJsCatchUp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AngularJsCatchUp_test.iml" group="AngularJsCatchUp" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-jsp/spring-boot-sample-web-jsp.iml" filepath="$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-jsp/spring-boot-sample-web-jsp.iml" />
+    </modules>
+  </component>
+</project>
