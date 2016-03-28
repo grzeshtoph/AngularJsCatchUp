@@ -48,6 +48,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml" />
       </list>
     </option>
   </component>

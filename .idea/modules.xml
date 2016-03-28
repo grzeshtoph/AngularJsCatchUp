@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AngularJsCatchUp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AngularJsCatchUp_main.iml" group="AngularJsCatchUp" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AngularJsCatchUp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AngularJsCatchUp_test.iml" group="AngularJsCatchUp" />
       <module fileurl="file://$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-jsp/spring-boot-sample-web-jsp.iml" filepath="$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-jsp/spring-boot-sample-web-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-ui/spring-boot-sample-web-ui.iml" filepath="$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-ui/spring-boot-sample-web-ui.iml" />
     </modules>
   </component>
 </project>
