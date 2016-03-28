@@ -18,6 +18,7 @@ public class WebController {
     @RequestMapping("/")
     public String welcome(Map<String, Object> model) {
         model.put("message", this.message);
+        model.put("fragmentName", "fragments/welcomePage");
         return "welcome";
     }
 }

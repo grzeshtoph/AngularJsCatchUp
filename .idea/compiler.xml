@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="spring-boot-sample-web-jsp" />
         <module name="spring-boot-sample-web-ui" />
+        <module name="spring-boot-thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +32,7 @@
       <module name="AngularJsCatchUp_test" target="1.8" />
       <module name="spring-boot-sample-web-jsp" target="1.8" />
       <module name="spring-boot-sample-web-ui" target="1.8" />
+      <module name="spring-boot-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

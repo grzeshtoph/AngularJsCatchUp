@@ -42,6 +42,7 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../spring-boot-thymeleaf" />
     <file type="web" url="file://$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-jsp" />
   </component>
   <component name="MavenProjectsManager">
@@ -49,6 +50,7 @@
       <list>
         <option value="$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-thymeleaf/pom.xml" />
       </list>
     </option>
   </component>
