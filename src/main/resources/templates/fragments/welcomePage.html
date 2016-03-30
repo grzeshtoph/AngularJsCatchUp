@@ -9,21 +9,21 @@
     <script src="../../js/jquery-2.2.2.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/app/app.js"></script>
-    <script src="../../js/app/welcomeController.js" th:fragment="pageJs"></script>
+    <script src="../../js/app/welcomeCtrl.js" th:fragment="pageJs"></script>
 </head>
 
 <body>
     <div ng-controller="WelcomeCtrl" th:fragment="pageBody">
-        <div class="jumbotron">
-            <div class="container">
+        <div class="container">
+            <div class="jumbotron">
                 <h1 th:text="${message}">Default Message</h1>
             </div>
-        </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    {{name}}
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        {{name}}
+                    </div>
                 </div>
             </div>
         </div>

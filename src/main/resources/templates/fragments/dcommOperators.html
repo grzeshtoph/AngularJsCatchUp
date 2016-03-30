@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../js/angular.min.js"></script>
+    <script src="../../js/jquery-2.2.2.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/app/app.js"></script>
+    <script src="../../js/app/dcommOperators.js" th:fragment="pageJs"></script>
+</head>
+
+<body>
+    <div ng-controller="DCommCtrl" th:fragment="pageBody">
+        <div class="container">
+            <div class="alert alert-danger" role="alert" ng-if="error">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <em>{{error.message}}</em> ({{error.exception}}, {{error.error}} - {{error.status}})
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    {{name}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    {{operators}}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

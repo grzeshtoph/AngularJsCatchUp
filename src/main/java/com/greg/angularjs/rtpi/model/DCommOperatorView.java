@@ -3,7 +3,7 @@ package com.greg.angularjs.rtpi.model;
 /**
  * Jackson mapping view for RTPI operator.
  */
-public class RTPIOperatorView {
+public class DCommOperatorView {
     public interface Summary {}
 }
 

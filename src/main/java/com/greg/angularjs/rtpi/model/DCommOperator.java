@@ -6,16 +6,16 @@ import com.fasterxml.jackson.annotation.JsonView;
 /**
  * Java bean representing operation information for RTPI.
  */
-public class RTPIOperator {
-    @JsonView(RTPIOperatorView.Summary.class)
+public class DCommOperator {
+    @JsonView(DCommOperatorView.Summary.class)
     @JsonProperty("operatorreference")
     private String operatorReference;
 
-    @JsonView(RTPIOperatorView.Summary.class)
+    @JsonView(DCommOperatorView.Summary.class)
     @JsonProperty("operatorname")
     private String operatorName;
 
-    @JsonView(RTPIOperatorView.Summary.class)
+    @JsonView(DCommOperatorView.Summary.class)
     @JsonProperty("operatordescription")
     private String operatorDescription;
 
@@ -33,7 +33,7 @@ public class RTPIOperator {
 
     @Override
     public String toString() {
-        return "RTPIOperator{" +
+        return "DCommOperator{" +
                 "operatorReference='" + operatorReference + '\'' +
                 ", operatorName='" + operatorName + '\'' +
                 ", operatorDescription='" + operatorDescription + '\'' +
