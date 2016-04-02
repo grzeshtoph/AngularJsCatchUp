@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8cdd216-6f69-49ce-b4d6-2c66ec4188ca" name="Default" comment="Added DComm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/greg/angularjs/StaticResourceConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/html/errorAlert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/directives.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/greg/angularjs/ServletInitializer.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/dcommOperators.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/dcommOperators.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/services.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/greg/angularjs/WebController.java" afterPath="$PROJECT_DIR$/src/main/java/com/greg/angularjs/WebController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/dcommOperators.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/dcommOperators.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-boot-thymeleaf/src/main/resources/templates/fragments/header.html" afterPath="$PROJECT_DIR$/../spring-boot-thymeleaf/src/main/resources/templates/fragments/header.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/dcommOperators.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/dcommOperatorsCtrl.js" />
     </list>
     <ignored path="AngularJsCatchUp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,31 +51,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dcommOperators.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dcommOperators.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/dcommOperators.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="434">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/directives.js">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="374">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AngularJsCatchUpApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/AngularJsCatchUpApplication.java">
+      <file leaf-file-name="welcomePage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/welcomePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -90,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/StaticResourceConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dcommOperators.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/dcommOperators.js">
+      <file leaf-file-name="dcommOperatorsCtrl.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/dcommOperatorsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="89" selection-start-line="0" selection-start-column="89" selection-end-line="0" selection-end-column="89" />
+            <state relative-caret-position="170">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -111,8 +106,8 @@
       <file leaf-file-name="WebController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/WebController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +120,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="11" column="36" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="36" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#650#651#0" expanded="false" />
+                <element signature="e#690#691#0" expanded="false" />
+                <element signature="e#729#730#0" expanded="false" />
+                <element signature="e#764#765#0" expanded="false" />
+                <element signature="e#810#811#0" expanded="false" />
+                <element signature="e#852#853#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,7 +147,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/html/errorAlert.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -546,7 +549,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/js/app/dCommCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/greg/angularjs/WebController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/app/welcomeCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/greg/angularjs/rtpi/model/DCommOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/greg/angularjs/rtpi/model/RTPIOperatorMessage.java" />
@@ -560,7 +562,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/greg/angularjs/rtpi/DCommController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/app/services.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/app/dcommOperators.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/greg/angularjs/WebController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/dcommOperators.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/app/dcommOperatorsCtrl.js" />
       </list>
     </option>
   </component>
@@ -610,6 +614,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1238,44 +1243,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJsCatchUp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJsCatchUp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -1368,19 +1338,19 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static\html" />
-      <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\templates" />
-      <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static\js\app" />
-      <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static\js" />
-      <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static\js\app" />
       <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\templates\fragments" />
       <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static" />
       <recent name="F:\dev\Workspace\spring-boot\spring-boot-samples\spring-boot-sample-web-ui\src\main\resources\static" />
       <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static\html" />
+      <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\templates" />
+      <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static\js\app" />
+      <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static\js" />
+      <recent name="F:\dev\Workspace\AngularJsCatchUp\src\main\resources\static" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AngularJsCatchUpApplication">
@@ -1861,7 +1831,9 @@
       <workItem from="1459161729453" duration="13047000" />
       <workItem from="1459196112508" duration="3357000" />
       <workItem from="1459360679734" duration="2430000" />
-      <workItem from="1459366455160" duration="3978000" />
+      <workItem from="1459366455160" duration="4044000" />
+      <workItem from="1459594253076" duration="315000" />
+      <workItem from="1459594640027" duration="4444000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1458901058454</created>
@@ -1898,11 +1870,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459363071929</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Start to formats list of operators">
+      <created>1459370581244</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1459370581244</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28471000" />
+    <option name="totallyTimeSpent" value="33296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1957,7 +1936,8 @@
     <MESSAGE value="added JS scripts + bootstrap config" />
     <MESSAGE value="Further improvements - parameterized thymeleaf templates" />
     <MESSAGE value="Added dCommServices and further dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dCommServices and further dev" />
+    <MESSAGE value="Start to formats list of operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start to formats list of operators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2196,21 +2176,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/rtpi/model/DCommOperatorMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-          <folding>
-            <element signature="e#1201#1202#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2218,15 +2187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/welcomePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2234,7 +2194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2242,7 +2201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2250,60 +2208,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/ServletInitializer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/AngularJsCatchUpApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/WebController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/StaticResourceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/html/errorAlert.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/rtpi/DCommController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -2324,26 +2236,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/dcommOperators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="89" selection-start-line="0" selection-start-column="89" selection-end-line="0" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/rtpi/model/DCommOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#650#651#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
+            <element signature="e#764#765#0" expanded="false" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#852#853#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/rtpi/DCommController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/welcomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/html/errorAlert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/greg/angularjs/StaticResourceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/dcommOperators.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="434">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/dcommOperatorsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>

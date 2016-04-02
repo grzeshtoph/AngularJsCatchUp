@@ -1,50 +1,48 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet"/>
     <script src="../../js/angular.min.js"></script>
     <script src="../../js/jquery-2.2.2.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/app/app.js"></script>
-    <script src="../../js/app/dcommOperators.js" th:fragment="pageJs"></script>
+    <script src="../../js/app/dcommOperatorsCtrl.js" th:fragment="pageJs"></script>
 </head>
 
 <body>
-    <div ng-controller="DCommCtrl" th:fragment="pageBody">
-        <div class="container">
-            <error-alert error="error" />
+<div ng-controller="DCommCtrl" th:fragment="pageBody">
+    <div class="container">
+        <error-alert error="error"/>
 
-            <div class="row">
-                <div class="col-md-12">
-                    {{name}}
-                </div>
-            </div>
+        <div class="alert alert-success" role="alert" ng-if="data.info">
+            {{data.info}}
+        </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <span>Select Dublin Commute Operator</span>
-                </div>
-            </div>
-
-            <div class="panel panel-default" ng-repeat="operator in operators">
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="input-group">
-                                <span class="input-group-addon">
-                                    <input type="radio" name="selectedOperator" ng-value="operator.operatorreference"/>
-                                </span>
-                                <input type="text" class="form-control" ng-value="operator.operatorname"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 th:text="${message}">Default Message</h1>
             </div>
         </div>
+
+        <div class="row">
+            <form name="dCommOperatorForm">
+                <div class="col-md-6">
+                    <div class="form-group" ng-class="{'has-error': dCommOperatorForm.$invalid}">
+                        <label for="selectedDCommOperator" class="control-label">Choose the operator</label>
+                        <select id="selectedDCommOperator" name="selectedDCommOperator"
+                                    ng-model="data.selectedDCommOperator"
+                                    ng-options="operator.operatorname for operator in data.operators track by operator.operatorreference"
+                                    class="form-control" required="required"></select>
+                        <p ng-show="dCommOperatorForm.selectedDCommOperator.$error.required" class="help-block">Required</p>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
+</div>
 </body>
 
 </html>

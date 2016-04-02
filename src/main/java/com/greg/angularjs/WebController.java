@@ -29,6 +29,7 @@ public class WebController {
     @RequestMapping("/dcomm-operators")
     public String rtpiOperatorsOpen(Map<String, Object> model) {
         LOGGER.debug("# rtpiOperatorsOpen entered");
+        model.put("message", "Dublin Commute Operators");
         model.put("fragmentName", "fragments/dcommOperators");
         return "index";
     }
