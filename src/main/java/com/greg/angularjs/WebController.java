@@ -33,4 +33,12 @@ public class WebController {
         model.put("fragmentName", "fragments/dcommOperators");
         return "index";
     }
+
+    @RequestMapping("/gojs")
+    public String gojsOpen(Map<String, Object> model) {
+        LOGGER.debug("# gojsOpen entered");
+        model.put("message", "GoJS test");
+        model.put("fragmentName", "fragments/gojs");
+        return "index";
+    }
 }
