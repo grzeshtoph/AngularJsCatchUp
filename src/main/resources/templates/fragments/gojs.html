@@ -24,8 +24,12 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12">
-                <go-diagram id="GoJsDiagram" model="model"></go-diagram>
+            <div class="col-md-3">
+                <go-diagram-palette id="GoJsDiagramPalette" model="data.paletteModel"></go-diagram-palette>
+            </div>
+            <div class="col-md-9">
+                <go-diagram id="GoJsDiagram" palette-model="data.paletteModel"
+                            model="data.actualModel"></go-diagram>
             </div>
         </div>
     </div>
