@@ -23,13 +23,25 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row padded-row">
             <div class="col-md-3">
                 <go-diagram-palette id="GoJsDiagramPalette" model="data.paletteModel"></go-diagram-palette>
             </div>
             <div class="col-md-9">
                 <go-diagram id="GoJsDiagram" palette-model="data.paletteModel"
                             model="data.actualModel"></go-diagram>
+            </div>
+        </div>
+
+        <div class="row padded-row">
+            <div class="col-md-2">
+                <button class="btn btn-default" ng-click="updateActualModel()">Update Model</button>
+            </div>
+        </div>
+
+        <div clas="row padded-row">
+            <div class="col-md-12">
+                <pre>{{ data.actualModel | json}}</pre>
             </div>
         </div>
     </div>

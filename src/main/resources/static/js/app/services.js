@@ -24,6 +24,7 @@
                             locationObjectName: "BODY",
                             locationSpot: go.Spot.Center
                         },
+                        new go.Binding("location", "loc").makeTwoWay(),
                         // BODY
                         $(go.Panel, "Auto",
                             {

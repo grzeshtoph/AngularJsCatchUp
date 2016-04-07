@@ -67,5 +67,9 @@
                 }
             ]
         };
+
+        $scope.updateActualModel = function() {
+            console.debug("Update actual model called.");
+        };
     }]);
 })();

@@ -17,6 +17,8 @@
             },
             replace: true,
             template: '<div style="height: 450px; background-color: #DAE4E4;"></div>',
+            controller: ['$scope', function($scope) {
+            }],
             link: function(scope, element, attrs) {
                 var palette = $(go.Palette, element[0]);
 
@@ -33,10 +35,13 @@
             restrict: 'E',
             scope: {
                 model: '=',
-                paletteModel: '='
+                paletteModel: '=',
+                saveDiagramReference: '&'
             },
             replace: true,
             template: '<div style="height: 450px; background-color: #DAE4E4;"></div>',
+            controller: ['$scope', function($scope) {
+            }],
             link: function(scope, element, attrs) {
                 var diagram = $(go.Diagram, element[0],
                     {
