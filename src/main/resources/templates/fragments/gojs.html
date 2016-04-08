@@ -29,19 +29,22 @@
             </div>
             <div class="col-md-9">
                 <go-diagram id="GoJsDiagram" palette-model="data.paletteModel"
-                            model="data.actualModel"></go-diagram>
+                            model="data.actualModel" extract-diagram="saveDiagram(diagram)"></go-diagram>
             </div>
         </div>
 
         <div class="row padded-row">
+            <div class="col-md-2 col-md-offset-3">
+                <button class="btn btn-default" ng-click="storeDiagramModel()">Store Model</button>
+            </div>
             <div class="col-md-2">
-                <button class="btn btn-default" ng-click="updateActualModel()">Update Model</button>
+                <button class="btn btn-default" ng-disabled="!data.diagramModel" ng-click="loadDiagramModel()">Load Model</button>
             </div>
         </div>
 
         <div clas="row padded-row">
             <div class="col-md-12">
-                <pre>{{ data.actualModel | json}}</pre>
+                <pre>{{ data.diagramModel }}</pre>
             </div>
         </div>
     </div>

@@ -11,6 +11,15 @@
     }]);
 
     app.factory('GoJSServices', function() {
+        var toLocation = function(data, node) {
+            return new go.Point(data.x, data.y);    
+        };
+        
+        var fromLocation = function(loc, data) {
+            data.x = loc.x;
+            data.y = loc.y;
+        };
+        
         return {
             getNodeTemplateMap: function(inputModel) {
                 var templateMap = new go.Map("string", go.Node);
@@ -24,7 +33,7 @@
                             locationObjectName: "BODY",
                             locationSpot: go.Spot.Center
                         },
-                        new go.Binding("location", "loc").makeTwoWay(),
+                        new go.Binding("location", "", toLocation).makeTwoWay(fromLocation),
                         // BODY
                         $(go.Panel, "Auto",
                             {

@@ -34,7 +34,7 @@
             scope: {
                 model: '=',
                 paletteModel: '=',
-                saveDiagramReference: '&'
+                extractDiagram: '&'
             },
             replace: true,
             template: '<div style="height: 450px; background-color: #DAE4E4;"></div>',
@@ -64,6 +64,8 @@
                             segmentOffset: new go.Point(0, -10),
                             isMultiline: false
                         }));
+
+                scope.extractDiagram({diagram: diagram});
             }
         }
     }]);

@@ -1,7 +1,8 @@
 (function () {
     app.controller('GoJSCtrl', ['$scope', function($scope) {
         $scope.data = {
-            actualModel: [],
+            diagram: null,
+            diagramModel: null,
             paletteModel: [
                 {
                     key: 'Operator1',
@@ -67,9 +68,21 @@
                 }
             ]
         };
-
-        $scope.updateActualModel = function() {
-            console.debug("Update actual model called.");
+        
+        $scope.loadDiagramModel = function() {
+            console.info("Load model");
+            $scope.data.diagram.model = go.Model.fromJson($scope.data.diagramModel);
         };
+
+        $scope.storeDiagramModel = function() {
+            console.info("Store model");
+            $scope.data.diagramModel = angular.copy($scope.data.diagram.model.toJson())
+        };
+        
+        $scope.saveDiagram = function(diagram) {
+            $scope.data.diagram = diagram;
+            console.info('saveDiagram called');
+            console.info(angular.toJson($scope.data.diagram.model));
+        }
     }]);
 })();
